@@ -24,8 +24,20 @@
 1. **[8 marks]** What are the commonalities and differences of the following:
    
    + (a) The Adapter and the Proxy design patterns? 
-
+   Adaptor convert the intreface of a class into another intrface clients expect. Adapter lets classes ork together, that could not otherwise because of incompatible interfaces 
+   The proxy controls access or disguises as one by placing itself in between the real one and the clients using it in order to do guard it (security or due to it being an expensive object) or to do some initialization before access to the real one is granted if it is.
+   It does so  by implementing (or subclassing the real one) the same interface as the real one, giving clients the illusion that they're dealing with the real one.
+	
+	The commonality betwen them is that in both, the client uses the intended object through someone who has wrapped itself around it by implementing an interface the client recognises but whilst in proxy it's the same
+	interface the clients was using with the real-one\target, in adapter, it does so by proving a differnt interface, because in fact the interface of the targat is one that the client doesn't recognise (or the other way around).
+	
    + (b) The Mediator and the Facade design patterns?
+   Whilst they both have the intention to organise collaboration between lots of tightly couplled classes or entities, it does it in opposite ways.
+   Facade is an object that provides a simplified interface to a larger body of code such as a class library or a sub-system of objects. It does so by offering a simple interface and revealing only the functionality you need to know
+   about thus hiding the complexity of the subsystem. It doesn't offer any new functionality and also, the entities within the subsystem are still allowed to communicate with each other directly.
+   Mediator de-coupples tightly linked entities by centralizing communication 
+   between them into a single entity, whilst in the same time disallowing them to communicate with each other directly. It does offer new functionality and the components that it serves are not aware of each other but
+   are only aware of the mediator who mediates and does the communication on their behalf.
 
    Provide appropriate examples to support your answers.
 
@@ -33,13 +45,16 @@
    One way to extend a software system is to find a suitable superclass, and to subclass it. You can achieve a similar effect, without extending the class, by copying some of the operations of one class into a new second class and then delegating calls to an enclosed instance of the first class. Both of these extension techniques, however, require that you know at compile time what behaviour you want to add.
    What are the two techniques that we have just described? 
    Indicate clearly “which is which”.
+   Inheritance and composition or aggregation
 
 3. **[10 marks]** Discuss what you understand by the following statement:
 
    > "When designing an object-oriented application, a major tenet of design is *loose coupling*"
 
    What is the role of the `new` operator in this context?
-   How does *dependency injection* assist with loose coupling?
+   using 'new' a lot couples strongly one class with another
+   How does *dependency injection* assist with loose coupling? 
+   Answer: eases testing and resolving dependencies. separates implementation from definition
    Provide appropriate examples to support your answer.
 
 4. **[12 marks]** 

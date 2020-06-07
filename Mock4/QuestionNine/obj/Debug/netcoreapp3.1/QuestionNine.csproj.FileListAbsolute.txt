@@ -1,0 +1,13 @@
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.exe
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.deps.json
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.runtimeconfig.json
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.runtimeconfig.dev.json
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.dll
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.pdb
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.csprojAssemblyReference.cache
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.csproj.CoreCompileInputs.cache
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.AssemblyInfoInputs.cache
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.AssemblyInfo.cs
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.dll
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.pdb
+C:\Users\nuche\OneDrive\Documents\mock-exam-paper-four-nkatz01\Mock4\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.genruntimeconfig.cache
