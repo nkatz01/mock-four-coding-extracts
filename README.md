@@ -50,7 +50,9 @@
 3. **[10 marks]** Discuss what you understand by the following statement:
 
    > "When designing an object-oriented application, a major tenet of design is *loose coupling*"
-
+   Assure that classess are as de-couppled as possible. That means single responsibility and composition or aggregation only when abselotely needed so that classess or components are easily reuasbale, maintabable and extendable.
+	It also means avoiding object instanciation whenever possible and instead assgin interfaces and enable this by injecting the dependencies as interface types.
+	
    What is the role of the `new` operator in this context?
    using 'new' a lot couples strongly one class with another
    How does *dependency injection* assist with loose coupling? 
@@ -80,7 +82,10 @@
    2. The Composite pattern and the Decorator pattern are similar. Describe the differences between the two and give examples of when you would use each.
    3. If you need to add behaviour to an object without changing its class which design patterns might you use?
    4. You are required to connect two parallel class hierarchies by letting subclasses in one hierarchy determine which class to instantiate in the second hierarchy. Which software design pattern should you use and why?
-
+   The factory method, whose idea is that if the same operations/functions are done in different ways by different objects, you let the classes impelemnt the different type of objects (who do the same thing just in 
+   differnt ways)  and separetly you have a (abstarct super class/ sub class) heirarchy that represents the different way the operations/functions, are executed, depending in which object they are. 
+	The factory method in the super calss is overriden, so when you call it, depending on which sub calss it's called, it gets a different product (an object from the first heirarchy) created by the subcalss and calles its
+	own way of executing that operation.
 8. **[12 marks]**
    Using the following definition of a `BigInt`, write a `BigInt` method, `Factor`, that returns a `BigInt` that is its smallest factor greater than 1. For example, if `Factor` is applied to a `BigInt` representing `12`, it returns a `BigInt` representing `2`.
 

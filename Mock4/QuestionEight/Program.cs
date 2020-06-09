@@ -7,7 +7,7 @@ namespace QuestionEight
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(new BigInt(7).Factor().OutputBigInteger());
         }
     }
 
@@ -17,9 +17,8 @@ namespace QuestionEight
         private bool error; // if overflow or underflow occurred, then true else false
 
 
-        public BigInt Factor() => new BigInt(Enumerable.Range(0, digits.Length).Where(i => digits.Length % i == 0).First());
-            //from a in Enumerable.Range(0, digits.Length) where digits.Length % a == 0 select  ;
-
+        public BigInt Factor() => new BigInt(Enumerable.Range(2, digits.Length ).Where(i => digits.Length % i == 0).First());
+ 
         public BigInt(int x = 0) // This class deals only with integers >= 0
         {
             digits = new int[x];
@@ -35,11 +34,11 @@ namespace QuestionEight
             // ...
         }
 
-        // Return a String representation of a BigInteger
-        //public string OutputBigInteger()
-        //{
-        //    // ...
-        //}
+        //Return a String representation of a BigInteger
+        public string OutputBigInteger()
+        {
+            return digits.Length +"";
+        }
 
         //// Add x to this, put return new value
         //public BigInt AddBigIntegers(BigInt x)
